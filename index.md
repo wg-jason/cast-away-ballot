@@ -1,4 +1,4 @@
-## Welcome to my shipwreck!
+# Welcome to my shipwreck!
 
 You can use the [editor on GitHub](https://github.com/wg-jason/cast-away-ballot/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 

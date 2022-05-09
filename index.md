@@ -112,7 +112,7 @@ https://www.gpb.org/news/2020/07/17/heres-what-the-data-shows-about-polling-plac
 ##  <font color='lightseagreen'>Contact</font>
 Questions? Contact: wangjason98@gmail.com
 
-
+May your votes be cast in an election and not cast away!
 
 
 

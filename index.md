@@ -12,7 +12,7 @@ The objective of this project is to look at Georgia Census block groups find:
 
 Voting Time Burden is defined as:
 
-Voting Time Burden = Travel Time to Polling Station (Round trip) + TimeVotingatPollingStation
+Voting Time Burden = Travel Time to Polling Station (Round trip) + Time Voting at Polling Station
 
 *Based on a similar study conducted by UC Berkeley Professor Daniel Chatman for Travis County, TX.*
 

@@ -30,7 +30,7 @@ Thank you to Stephen Fowler of Georgia Public Broadcasting for generously provid
 
 Thank you to Steven Davenport, PhD and the Center for New Data for generously providing de-identified device data for estimated wait times for polling stations in Georgia.
 
-Thank you to Max Gardner for advising on data visualization techniques and advising on this project.
+Thank you to Max Gardner for advising on data analysis and visualization techniques.
 
 ##  <font color='lightseagreen'>Data and Methodology</font>
 ### Data

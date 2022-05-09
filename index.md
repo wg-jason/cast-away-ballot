@@ -50,7 +50,7 @@ Courtesy of Stephen Fowler from GPB. Includes addresses, precinct id's, and cont
 
 ![Smartphone Locations](/docs/assets/images/Smartphone Location Image.png)
 
-Courtesy of Steven Davenport, PhD and Center for New Data. Deidentified device wait times at polling addresses on November 3rd, 2020 in Georgia. Estimated times are calculated using methods in Chen. et. al. 
+Courtesy of Steven Davenport, PhD and Center for New Data. Deidentified device wait times at polling addresses on November 3rd, 2020 in Georgia. Estimated times are calculated using methods in Chen, et al. 
 
 ### Methodology
 #### Polling Station Wait Times
@@ -92,22 +92,25 @@ High income block group clusters having a voting burden of nearly 10 minutes les
 
 ##  <font color='lightseagreen'>References</font>
 
-**Travel Burdens for Voters to Access a Ballot Drop Box** (Travis County Motion for Relief)
-Dr. Daniel Chatman
-https://www.brennancenter.org/sites/default/files/2020-10/Appellees%27%20Emergency%20Motion%20for%20Relief%20%26%20Exhibits.pdf
+**Travel Burdens for Voters to Access a Ballot Drop Box** (Travis County Motion for Relief)<br>
+Dr. Daniel Chatman <br>
+<a href="https://www.brennancenter.org/sites/default/files/2020-10/Appellees%27%20Emergency%20Motion%20for%20Relief%20%26%20Exhibits.pdf
+"> Link </a>
 
-**Racial Disparities in Voting Wait Times: Evidence from Smartphone Data**
-Chen, et al.
-https://www.nber.org/system/files/working_papers/w26487/w26487.pdf
+**Racial Disparities in Voting Wait Times: Evidence from Smartphone Data**<br>
+Chen, et al.  <br>
+<a href="https://www.nber.org/system/files/working_papers/w26487/w26487.pdf"> Link </a>
 
+**Access to Polls: Assessment of Early Vote Wait Times in Georgia’s General Election and Potential Effects of Voting Restrictions in Runoff**<br>
+Center for New Data  <br>
+<a href="https://www.newdata.org/ga-analysis"> Link </a>
 
-**Access to Polls: Assessment of Early Vote Wait Times in Georgia’s General Election and Potential Effects of Voting Restrictions in Runoff**
-Center for New Data
 https://www.newdata.org/ga-analysis
 
 **Here’s What The Data Shows About Polling Places, Lines In Georgia's Primary**
-Stephen Fowler
-https://www.gpb.org/news/2020/07/17/heres-what-the-data-shows-about-polling-places-lines-in-georgias-primary
+Stephen Fowler  <br>
+<a href="https://www.gpb.org/news/2020/07/17/heres-what-the-data-shows-about-polling-places-lines-in-georgias-primary
+"> Link </a>
 
 ##  <font color='lightseagreen'>Contact</font>
 Questions? Contact: wangjason98@gmail.com

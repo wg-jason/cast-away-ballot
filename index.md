@@ -11,7 +11,9 @@ The objective of this project is to look at Georgia Census block groups find:
 2. Where can mobile bus voting sites or new polling stations be used to alleviate travel and waiting times?
 
 Voting Time Burden is defined as:
-$$ Voting Time Burden = Travel Time to Polling Station (Round trip) + TimeVotingatPollingStation$$
+
+Voting Time Burden = Travel Time to Polling Station (Round trip) + TimeVotingatPollingStation
+
 *Based on a similar study conducted by UC Berkeley Professor Daniel Chatman for Travis County, TX.*
 
 ##  <font color='lightseagreen'>Summary of Findings</font>
@@ -34,16 +36,16 @@ There are three primary datasets used in this analysis.
 
 1. **2010 GA Census Block Group**
 
-![[Census Data Image.png]]
+![Census Logo](/docs/assets/images/Census Data Image.png)
 
 Population centroids, race, ethnicity, income, car ownership of block groups was analyzed in this project. Data that is only avaliable on a tract-level was projected onto the block group level.
 
 2. **2020 GA Polling Locations**
-![[Polling Locations Image.png]]
+![Polling Locations](/docs/assets/images/Polling Locations Image.png)
 Courtesy of Stephen Fowler from GPB. Includes addresses, precinct id's, and contacts for polling locations in the state of Georgia for voting in 2020.
 
 3. **2020 Nov Election Poll Smartphone Wait Times**
-![[Smartphone Location Image.png | 250]]
+![Smartphone Locations](/docs/assets/images/Smartphone Location Image.png)
 
 Courtesy of Steven Davenport, PhD and Center for New Data. Deidentified device wait times at polling addresses on November 3rd, 2020 in Georgia. Estimated times are calculated using methods in Chen. et. al. 
 
@@ -53,33 +55,33 @@ First the wait time at each polling station is determined. Using the deidentifie
 
 There are about 2300 polling stations in Georgia, but smartphone wait times exists for 1201 polling stations. To address this limitation, we assume that nearby polling stations share similar wait time. That is, we spatially assign 90th percentile wait times of polling stations without smartphone data by pulling from the nearest polling station with smartphone wait data. 
 
-![[Polling wait time figure.png]]
+![Polling Station Data Map](/docs/assets/images/Polling wait time figure.png)
 
 #### Travel Times
 Travel times are determined by plotting the population centroid of GA census block groups and polling stations. Each block group is assigned to their nearest polling station and a Google Maps API is used to generate travel times during the morning rush hour. Travel time is weighted by census car ownership. That is, block groups with higher rates of car ownership will have travel times weighted more towards car.
 
-![[blockgroup to poll.png]]
+![BlockGroup to Poll Assignment](/docs/assets/images/blockgroup to poll.png)
 
 #### Combining Travel Time and Wait times
 
 Travel times and wait times are combined for a rich dataset of block groups with demographic data and voting times!
 
-![[combiningTTandWait.png]]
+![Combining Travel Time and Wait Times](/docs/assets/images/combiningTTandWait.png)
 
 
 ##  <font color='lightseagreen'>Results</font>
 First a k-means clustering analysis was completed to view block groups with similar demographic and voting time burden characteristics. Five clusters was used in this analysis and ordered by voting time burden. Median statistics are shown below.
 
-![[Kmeans results.png]]
+![Kmeans Results](/docs/assets/images/Kmeans results.png)
 It is seen in the clustering analysis that the two lowest burden clusters generally have the highest median income. Interestingly, the middle, high, and highest burden clusters have similar voting time burdens. This indicates that most block groups exhibit similar voting times of around 43 minutes, but higher income groups have notably less voting time burden.
 
 Although it is interesting to plot block group clusters, it is more useful and informative to look at a choropleth of voting time burden:
 
-![[Results 1.png]]
+![Results](/docs/assets/images/Results 1.png)
 
 With this plot, it is easy to identify areas with potential voter equity issues. To effectively and strategically use mobile voting buses or new polling sites, red and orange locations should be considered first. For example:
 
-![[propose poll.png]]
+![Proposing Polling Locations](/docs/assets/images/propose poll.png)
 ##  <font color='lightseagreen'>Conclusions</font>
 Quantifying voting time burden is useful to effectively address voter equity issues. When certain population groups have a higher voting time burden than others, this can disproportionately cause some groups to have lower turnout than others.
 

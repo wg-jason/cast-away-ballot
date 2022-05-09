@@ -1,6 +1,6 @@
 # Welcome to Cast - Away - Ballot!
 ##  <font color='lightseagreen'>Introduction and Motivation</font>
-![[cast-away-ballot-logo.png | 250]]
+![Cast Away Ballot Logo](/docs/assets/images/cast-away-ballot-logo.png)
 Casting a ballot in an election should be as effortless as possible. Cast-away-ballots are ballots that are stranded due to access times and/or wait times at the nearest polling station. 
 
 In March 25th, 2021, The State of Georgia passed the Election Integrity Act. As a part of this law, previously used mobile voting buses are restricted and absentee ballot request and delivery periods are shortened. These changes may induce more demand for in-person voting on election day.

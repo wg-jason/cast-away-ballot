@@ -1,4 +1,4 @@
-# Welcome to Cast - Away - Ballot!
+# <font color='slateblue'>Welcome to Cast - Away - Ballot!</font>
 ##  <font color='lightseagreen'>Introduction and Motivation</font>
 ![Cast Away Ballot Logo](/docs/assets/images/cast-away-ballot-logo.png)
 Casting a ballot in an election should be as effortless as possible. Cast-away-ballots are ballots that are stranded due to access times and/or wait times at the nearest polling station. 

@@ -34,19 +34,19 @@ Thank you to Steven Davenport, PhD and the Center for New Data for generously pr
 ### Data
 There are three primary datasets used in this analysis.
 
-### **2010 GA Census Block Group**
+#### **2010 GA Census Block Group**
 
 ![Census Logo](/docs/assets/images/Census Data Image.png)
 
 Population centroids, race, ethnicity, income, car ownership of block groups was analyzed in this project. Data that is only avaliable on a tract-level was projected onto the block group level.
 
-### **2020 GA Polling Locations**
+#### **2020 GA Polling Locations**
 
 ![Polling Locations](/docs/assets/images/Polling Locations Image.png)
 
 Courtesy of Stephen Fowler from GPB. Includes addresses, precinct id's, and contacts for polling locations in the state of Georgia for voting in 2020.
 
-### **2020 Nov Election Poll Smartphone Wait Times**
+#### **2020 Nov Election Poll Smartphone Wait Times**
 
 ![Smartphone Locations](/docs/assets/images/Smartphone Location Image.png)
 

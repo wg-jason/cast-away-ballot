@@ -105,8 +105,6 @@ Chen, et al.  <br>
 Center for New Data  <br>
 <a href="https://www.newdata.org/ga-analysis"> Link </a>
 
-https://www.newdata.org/ga-analysis
-
 **Here’s What The Data Shows About Polling Places, Lines In Georgia's Primary**
 Stephen Fowler  <br>
 <a href="https://www.gpb.org/news/2020/07/17/heres-what-the-data-shows-about-polling-places-lines-in-georgias-primary
